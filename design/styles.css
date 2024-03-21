@@ -1,0 +1,91 @@
+* {
+  padding: unset;
+  margin: unset;
+  box-sizing: border-box;
+  font-family: "Inter Tight";
+}
+
+video,
+img {
+  height: 100%;
+  width: 100%;
+}
+
+.main {
+  width: 100svw;
+  height: 100svh;
+  background-color: hsl(0, 0%, 8%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 300px;
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 8px;
+  padding: 24px;
+}
+
+.photonamelocation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.photonamelocation img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  padding-top: 8px;
+}
+
+.name {
+  font-family: "Inter Tight";
+  font-size: 18px;
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+  padding-top: 8px;
+}
+
+.location {
+  font-size: 12px;
+  font-weight: 600;
+  color: hsl(75, 94%, 57%);
+  padding-bottom: 12px;
+}
+
+.designation {
+  font-size: 12px;
+  font-weight: 400;
+  color: hsl(0, 0%, 100%);
+  padding-bottom: 18px;
+}
+
+.tiles {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.tile1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(0, 0%, 20%);
+}
+
+.tile1:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: black;
+}
